@@ -13,4 +13,56 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+    /* extra styling */
+    background-color: whitesmoke;
+    opacity: .8;
+}
+
+/* Bonus mission */
+
+.green {
+  color: green;
+}
+
+#count { 
+  color: white;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+/* Just because I'm extra */
+
+body {
+  padding: 15px;
+  background-image: url(images/earth.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1 {
+  font-family: 'Baloo Bhai', 'Impact';
+  color: whitesmoke;
+  font-size: 6vh;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 4vh;
+}
+
+div, p, li, h3 {
+  font-family: 'Titillium Web', 'Lucida Sans', sans-serif;
+}
+
+p {
+  font-size: 2vh;
+  color: whitesmoke;
+}
+
+li {
+  font-size: 2vh;
 }
