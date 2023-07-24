@@ -1,21 +1,19 @@
 .avatar {
-    border-radius: 50%;
-    height: 100px;
-    float:right;
+  border-radius: 50%;
+  height: 140px; /* modified */
+  float: right;
 }
 
 .astronaut {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-    align-items: center;
-    padding: 5px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    /* extra styling */
-    background-color: whitesmoke;
-    opacity: .8;
+  /* border: 1px solid black; */ /* modified */
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  padding: 0px 20px 10px; /* modified */
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: rgba(245, 245, 245, 0.8); /* added */
 }
 
 /* Bonus mission */
@@ -24,7 +22,7 @@
   color: green;
 }
 
-#count { 
+#count {
   color: white;
   width: 500px;
   margin-bottom: 50px;
@@ -54,7 +52,10 @@ h3 {
   font-size: 4vh;
 }
 
-div, p, li, h3 {
+div,
+p,
+li,
+h3 {
   font-family: 'Titillium Web', 'Lucida Sans', sans-serif;
 }
 
@@ -65,4 +66,8 @@ p {
 
 li {
   font-size: 2vh;
+}
+
+#container {
+  padding-bottom: 50px;
 }
